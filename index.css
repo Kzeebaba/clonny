@@ -1,0 +1,97 @@
+.body {
+    font-family: "Rubik", sans-serif;
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-right: 350px;
+    align-content: center;
+   
+
+}
+
+.left-nav{
+
+    flex: content;
+    justify-items: baseline;
+}
+.left-nav button{
+
+
+padding-top: 0px;
+margin-right: 20px;
+margin-left: 20px;
+border: none;
+background: none;
+}
+
+.left-nav button:hover{
+    color: #00a2ff;
+}
+.log-nav button{
+    height: 40px;
+    margin-top: 0px;
+    margin-left: 20px;   
+    align-content: stretch; 
+    border-radius: 14px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: .6em .8em;
+}
+
+.log-btn{
+    border-color: grey;
+    
+    
+    }
+
+.log-btn:hover{
+    
+    color: #00a2ff;
+    border-color: #00a2ff;
+    
+}
+.sign-btn {
+    color: white;
+    background-color: #00a2ff;
+    border: #00a2ff;
+    border-color: #00a2ff;
+}
+
+.sign-btn:hover {
+
+    font: #00a2ff;
+    background-color: white;
+    border: #00a2ff;    
+    color: #00a2ff;
+    
+}
+.con-txt {
+    
+    margin-top: 50px;
+    
+    justify-items: center;
+}
+
+.con-txt button{
+    width: 300px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 15px;
+    border:  solid rgb(194, 194, 33);
+    margin-bottom: 0px;
+}
+.try-txt{
+
+font-size: x-small;
+margin-right:10px ;
+margin-top: 0px;
+justify-items: center;
+
+
+}
