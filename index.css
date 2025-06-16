@@ -33,6 +33,7 @@ background: none;
 
 .left-nav button:hover{
     color: #00a2ff;
+    cursor: pointer;
 }
 .log-nav button{
     height: 40px;
@@ -55,6 +56,7 @@ background: none;
     
     color: #00a2ff;
     border-color: #00a2ff;
+    cursor: pointer;
     
 }
 .sign-btn {
@@ -70,6 +72,7 @@ background: none;
     background-color: white;
     border: #00a2ff;    
     color: #00a2ff;
+    cursor: pointer;
     
 }
 .con-txt {
@@ -90,6 +93,13 @@ background: none;
     font-weight: 900;
     
 }
+.con-txt button:hover {
+cursor: pointer;
+color: white;
+background-color: #00a2ff;
+
+}
+
 .try-txt{
 
 font-size: x-small;
