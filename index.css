@@ -55,14 +55,14 @@ background: none;
 .log-btn:hover{
     
     color: #00a2ff;
-    border-color: #00a2ff;
+    border:solid #00a2ff;
     cursor: pointer;
     
 }
 .sign-btn {
     color: white;
     background-color: #00a2ff;
-    border: #00a2ff;
+    border:solid #00a2ff;
     border-color: #00a2ff;
 }
 
@@ -70,7 +70,7 @@ background: none;
 
     font: #00a2ff;
     background-color: white;
-    border: #00a2ff;    
+    border:solid #00a2ff;    
     color: #00a2ff;
     cursor: pointer;
     
@@ -97,6 +97,7 @@ background: none;
 cursor: pointer;
 color: white;
 background-color: #00a2ff;
+border: #00a2ff;
 
 }
 
@@ -118,4 +119,9 @@ justify-items: center;
 
 .get-txt {
     font-weight: 600;
+}
+
+.step-txt {
+    color:#767879;
+    font-weight: bold;
 }
