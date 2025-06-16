@@ -1,5 +1,7 @@
 body {
-  background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
     font-family: "Rubik", sans-serif;
 }
 
@@ -7,24 +9,24 @@ body {
 
 .navbar{
     display: flex;
-    justify-content: space-between;
-    margin-left: 300px;
-    margin-top: 20px;
-    margin-right: 350px;
+    justify-content: space-around;   
     align-content: center;
-   
+   gap:50px;
+   padding: 15px 30px;
 
 }
 
 .left-nav{
 
-    flex: content;
-    justify-items: baseline;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
     
 }
 .left-nav button{
 
 font-weight: bolder;
+font-size: 14px;
 padding-top: 0px;
 margin-right: 10px;
 margin-left: 20px;
@@ -36,6 +38,7 @@ background: none;
     color: #00a2ff;
     cursor: pointer;
 }
+
 .log-nav button{
     height: 40px;
     margin-top: 0px;
@@ -87,11 +90,12 @@ background: none;
     width: 300px;
     height: 50px;
     background-color: yellow;
-    border-radius: 15px;
+    border-radius: 20px;
     border:  solid rgb(194, 194, 33);
     margin-bottom: 0px;
     margin-top: 40px;
     font-weight: 900;
+    font-size: 18px;
     
 }
 .con-txt button:hover {
